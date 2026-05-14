@@ -1,0 +1,18 @@
+[project]
+name = "noted-api"
+version = "0.1.0"
+description = "The backend for Noted"
+authors = [
+    {name = "Bailey Loewe"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "resend",
+    "fastapi[standard]",
+    "pydantic[email]",
+    "pymongo",
+    "python-dotenv",
+    "bcrypt",
+    "typing_extensions",
+    "uvicorn",
+]

@@ -1,0 +1,50 @@
+# Created by www.gitignore.io
+# Edit at www.gitignore.io
+
+### Python ###
+# Byte-code files
+*.pyc
+__pycache__
+# Distributions and packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+# Environments
+.env
+venv
+env/
+# IDE-specific files
+.idea/
+.vscode/
+# mypy cache
+.mypy_cache/
+# pytest cache
+.pytest_cache/
+# Coverage reports
+.coverage
+htmlcov/
+.nox/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+### Visual Studio Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### Operating System Files ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+# Linux
+*~
+.idea/note-me-api.iml
+.idea/note-me-api.iml
